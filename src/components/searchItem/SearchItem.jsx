@@ -9,7 +9,7 @@ const navigate = useNavigate()
     <div className="searchItem">
      <img src="https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1" 
      alt="" 
-     className="siImg" />
+     className="siImg" onClick={handleSearch} />
      <div className="siDesc">
      <h1 className="siTitle">Tower Street Apartments</h1>
         <span className="siDistance">500m from center</span>
