@@ -1,5 +1,5 @@
 import "./searchItem.css"
-
+import { useNavigate } from "react-router-dom"
 const SearchItem = () => {
 const navigate = useNavigate()
   const handleSearch = ()=>{
